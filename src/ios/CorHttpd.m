@@ -151,7 +151,7 @@
     // However, for easy testing you may want force a certain port so you can just hit the refresh button.
     // [httpServer setPort:12345];
 
-    [self.httpServer setPort:self.port];
+//     [self.httpServer setPort:self.port];
 
     if(self.localhost_only) [self.httpServer setInterface:IP_LOCALHOST];
 
